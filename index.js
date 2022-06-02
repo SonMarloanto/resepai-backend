@@ -124,11 +124,29 @@ app.get("/account", async (req,res) => {
      console.log("------> hasil")
      res.send(JSON.stringify(
         { status: 200, 
-          error: null, 
           response: result 
          })); 
       }) //end of db.getConnection()
    })
+}) //end of app.get()
+
+app.get("/account/:id", async (req,res) => {
+  const userId = req.params.userId
+
+  db.getConnection( async (err, connection) => {
+   if (err) throw (err)
+   const sqlSearch = "SELECT * FROM usertb WHERE userId = ?"
+   const search_query = mysql.format(sqlSearch,[userId])
+   await connection.query (search_query, async (err, result) => {
+     connection.release()
+    if (err) throw (err)
+    console.log("------> hasil")
+    res.send(JSON.stringify(
+       { status: 200, 
+         response: result 
+        })); 
+     }) //end of db.getConnection()
+  })
 }) //end of app.get()
 
 const port = process.env.PORT
