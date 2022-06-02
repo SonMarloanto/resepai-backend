@@ -88,7 +88,7 @@ app.post("/login", (req, res)=> {
       res.send(
       JSON.stringify({
         status: 404,
-        response: result
+        response: "Username Invalid!!"
       })
     );
      } 
@@ -100,7 +100,7 @@ app.post("/login", (req, res)=> {
        console.log("---------> Generating accessToken")
        const token = getToken({username: username})   
        console.log(token)
-       res.JSON({accessToken: token})
+       res.json({accessToken: token})
        res.send(`${username} is logged in!`)
        } 
        else {
@@ -131,12 +131,12 @@ app.get("/account", async (req,res) => {
 }) //end of app.get()
 
 app.get("/account/:id", async (req,res) => {
-  const userId = req.params.userId
+  const id = req.params.id
 
   db.getConnection( async (err, connection) => {
    if (err) throw (err)
-   const sqlSearch = "SELECT * FROM usertb WHERE userId = ?"
-   const search_query = mysql.format(sqlSearch,[userId])
+   const sqlSearch = "SELECT * FROM usertb WHERE userid = ?"
+   const search_query = mysql.format(sqlSearch,[id])
    await connection.query (search_query, async (err, result) => {
      connection.release()
     if (err) throw (err)
