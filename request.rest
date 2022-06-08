@@ -1,5 +1,5 @@
 
-POST http://127.0.0.1:3000/login
+POST  https://resepai-backend-vlbqdtksba-uc.a.run.app/v/login
 
 {
     "name" : "adi",
@@ -8,7 +8,7 @@ POST http://127.0.0.1:3000/login
 
 ###
 
-POST http://127.0.0.1:3000/regis
+POST https://resepai-backend-vlbqdtksba-uc.a.run.app/v/regis
 
 {
     "name" : "etus",
@@ -19,8 +19,16 @@ POST http://127.0.0.1:3000/regis
 
 ###
 
-GET http://127.0.0.1:3000/account
+GET https://resepai-backend-vlbqdtksba-uc.a.run.app/v/account
 
 ###
 
-GET http://127.0.0.1:3000/account/1
+GET https://resepai-backend-vlbqdtksba-uc.a.run.app/v/account/3
+
+###
+
+PUT https://resepai-backend-vlbqdtksba-uc.a.run.app/v/account/5
+
+###
+DELETE PUT https://resepai-backend-vlbqdtksba-uc.a.run.app/v/account/5
+

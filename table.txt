@@ -1,0 +1,14 @@
+table usertb
+atribut: id, username, password, nohp, alamat
+
+table resep
+atribut: id, title, kategori, step, ingredients
+
+table ingredients
+atribut: id, title, harga, 
+
+
+3. Get Category
+4. Get Recipe by category
+5. Get Most Liked
+
