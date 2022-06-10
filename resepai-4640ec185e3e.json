@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "resepai",
+  "private_key_id": "4640ec185e3e9c11e68e3b1474a84d7af5d1fda8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDB75hDJYZGzFT1\nwYCJ6tnRcd3XVRPajbvCFTdersH2f3Bi8X1QMK2VNASUpE+fYM/V//Q4shrZue5n\njCKeamWBkoIzF1OdGQp8dQ59EtYDlqKq0Oj48N1ydh+p6LrGzYF2MaO2JGwuCCDh\ntF41wk8OoWlSmi/FuV5UYQLaNOqa0S/gQdGE98FWal6VS3Y+ttQb4gti/gGFtumO\n7Lta2JwFKZp281G+ekVn0ZR+f5fk3xsqAJOgUimOezeqUsLGsODnpL9kHUBSctzN\nxYVOGP30NvdeGr4+3ys+L+35gBg6HtaAlAhmYTRg7WIMPrMSDlTcLfD6XwZKc5Pr\nygnU0JPjAgMBAAECggEAE3x4hx6pHEoBq2PS/4iadEIFsVI6GXauS/UHyDq1AIiT\niU2MctdBScGdSDYuTexTVcRPDLdQnVniS4M4I0S7iEZpUKriWuGePR0h5I1U9a1Y\nEOPG1OSWy5501gStZ7ZUcMTSF0YXnJRygVs3MB2jBexQAd2+ORbEFKRevgAdJor7\neHhDhywGtH5PSZHz31uzqSS3cCPqaRyB9BsiI60k29xAUV0qyyoZA9RJFUMKo6Vr\n67U+i78d5jvs4aD/EbEY2B13IFVperaTBU8ixqtsQWaXpeJTePWXiLEPwit+ba2U\nWPPMntSSrr8qocPhFJhBwFypOHj4bMV306Fmm3lY+QKBgQDqKTGtgLI6GcPX2QDO\ndyqUd68g9zKryUaH7eQHlEul9a8XPihTsE9AhM3AV8hK14Tb/UxZzOvaLPXR7EYn\n2pKt0YWEajVjQALyNMxf08hXa0vc/Rbu+ho3iuXTPbxEZZrF6HpcOABdhqdk+y4b\njhejA8L7BWpScn31QRHptB3XlQKBgQDUBf38Tp7K+l2uRv4hN30z6CPPIrF19qPP\n5aWsyQcW6SRvBWsoB15yA+R/dR/hxBGGs60GHukQixYrBIle6NiNJ4bJiwx0D/xi\n9oDcKi7yn1sahBUOjEySa8XebWtmTyGXH8XLVd53od6t/rv23Eb/4oJ1T2nXMS8/\n/9lu5VX/lwKBgA4GG5CNlZ7/Lgh+WZsD7gvoQxfRVjqNmmjHqZF+oy00UqEsutOQ\nSp7NlVkAqOE6mR1nxSvXpwRxDuPcp7L5VzGLy9hLWBkymzqQSPEwSN5bcbaxfa8g\nUXOkIPGOz/i0sRlLPBDL1dHEH8BffrptvyKnNgU8pMp9SufmVsFNZUAlAoGAOPv7\nTWqcBxXPQ93Uw3y0a9UCetNqOrg1QtUH+C53d1Ll9ejQ6gtA+QfOy+rgzL7zru5v\nnGuGXGnlZV5sxVNzkEyFT3nNuQvq23ZBH+s+fvsRc0j4l9ZhZiENJ0DlUrQF5SYm\n9QV5K1IYFU+XmTuO4YsxYPIdEjcn6d2LxOBigrUCgYAF/FIGd0mi8ME45qjxU8pb\nsHkcFkkfl4N9ilw77ZJrsCIAFq3qxs9Bggs3LU33/mRgfyxGBAT5ZmJBSG5pdQjJ\nPO2RmYgQkAgLAka7QEdUqFw23jcEJTfU3wQRfW+coJv6kS2US7FuVKT+ctN2cZua\n8yNeLdfpOgc+USGY/nXo+A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "image-url@resepai.iam.gserviceaccount.com",
+  "client_id": "117779684033615255649",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/image-url%40resepai.iam.gserviceaccount.com"
+}
